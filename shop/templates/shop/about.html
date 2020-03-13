@@ -1,0 +1,38 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+{% block content %}
+    <h1 class="text-center headline">О нас</h1>
+    <div class="container">
+        <hr>
+        <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Мы</h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="{% static 'shop/images/company_image_1.jpg' %}" width="500" height="500"></img>
+            </div>
+          </div>
+          <hr>
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Наша философия</h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="{% static 'shop/images/company_image_2.jpg' %}" width="500" height="500"></img>
+            </div>
+          </div>
+          <hr>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Наш основатель</h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="{% static 'shop/images/company_image_3.jpg' %}" width="500" height="500"></img>
+            </div>
+          </div>
+    </div>
+
+{% endblock content %}
